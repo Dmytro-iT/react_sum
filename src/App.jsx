@@ -2,4 +2,12 @@ import React from 'react';
 import './App.scss';
 import { Sum } from './components/Sum/Sum';
 
-export const App = () => <Sum />;
+export const App = () => (
+  <>
+    <Sum />
+    <Sum />
+    <Sum />
+    <Sum />
+    <Sum />
+  </>
+);
